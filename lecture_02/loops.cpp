@@ -4,11 +4,11 @@ using namespace std;
 int main(){
 
 //Print numbers from 1 to 5    
-    int count = 1; //initialisation 
+    int i = 1; //initialisation 
 
-    while(count<=5){
-        cout << count <<" ";
-        count++; //updation
+    while(i<=5){
+        cout << i <<" ";
+        i++; //updation
     }
 
 
@@ -44,7 +44,24 @@ int main(){
 
 
 
-//check if number is prime or not    
+//check if number is prime or not  (iska logic important hai!)  
+    int m;
+    cout << "Enter Your number : ";
+    cin >> m ;
+    bool isPrime = true;
+
+    for(int i=2;i<=(m-1);i++){
+    //(int i = 2 ; (i*i)<=m ; i++) after root m factors start to repeat
+        if(m%i == 0){
+            isPrime = false;
+            break;
+        }    
+    }
+    if(isPrime==true){
+        cout << "Prime number \n";
+    }else{
+        cout << "Non-prime \n";
+    }
     
 
 
@@ -65,7 +82,7 @@ int main(){
 //break : loop se nikal jayega
 
 
-    // for(initialisation;condition;updation){
+    // for(initialisation;condition;updation){  #ICU
     //     work to be done
     // }
 
