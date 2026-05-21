@@ -155,7 +155,38 @@ int main (){
     }
 
 
-//Butterfly pattern : HW problem    
+//Butterfly pattern : HW problem 
+    int n = 5;
+    for(int i =0 ;i<n ;i++){
+        for(int j =0 ; j<(i+1) ; j++){
+            cout <<"*";
+        }
+        for(int j=0 ; j<2*(n-i-1) ; j++ ){
+            cout << " ";
+        }
+        for(int j =0 ; j<(i+1) ; j++){
+            cout <<"*";
+        }
+       
+        cout << endl;
+    }
+
+
+    for(int i =0 ;i<n ;i++){
+        for(int j = (n-i) ; j>0 ; j-- ){
+            cout <<"*";
+        }
+        for(int j = 0 ; j<2*i ; j++){
+            cout << " ";
+        }
+        for(int j =(n-i) ; j>0 ; j-- ){
+            cout <<"*";
+        }
+       
+        cout << endl;
+    }
+
+
            
     return 0;
 }
@@ -164,3 +195,5 @@ int main (){
 //inner loop->har line me kya krna hai
             // ->count how many character to print(utni hi baar loop chalega)
             // ->kya print karana hai
+
+// bade patterns ko parts me divide karo and then try kro!            
