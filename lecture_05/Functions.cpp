@@ -13,20 +13,67 @@ int sumOfDigits(int num){
     return digitSum ;
 
     }
+
+
+void checkPrime(int n){
+    bool isPrime = true;
+    for(int i = 2 ; i<n ;i++){
+        if(n%i == 0){
+            isPrime = false;
+            break;
+        }
+
+    }    
+
+    if(isPrime == true){
+        cout << n << endl;
+
+    }      
+}
+
+int printPrime(int n){
+    for(int i=2 ;i<=n ; i++){
+        checkPrime(i);
+    }
+} 
+
+
+int get_nth_fibonacci(int n){
+    int a = 0,b=1,c;
+    
+
+    //Special cases
+    if(n==0){
+        cout << 0;
+        return 0;
+    }
+
+    if(n==1){
+        cout << 1;
+        return 0;
+    }
+
+    //Find nth fibonaaci
+    for(int i=2;i<=n;i++){
+    c = a + b;
+    a = b;
+    b = c;
+    }
+    cout << b ;
+}
     
 
 int main(){
  
-    cout << sumOfDigits(69);
+    cout << sumOfDigits(69) << endl;
+    printPrime(69);
+    get_nth_fibonacci(6);
 
     return 0;
 }
 
 // HW:
-// 1.study about switch 
-// 2.WAF to check if a number is prime  or not
-// 3.WAF to print all prime number from 2 to N
-// 4.WAF to print nth fibonacci number
+// 1.study about switch
 
 
 //Function:
