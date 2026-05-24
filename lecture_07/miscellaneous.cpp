@@ -1,13 +1,31 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
+int Reverse_num(int n){
+    int ans = 0;
+
+    while(n>0){
+        int rem = n % 10;
+
+        ans = ans*10 + rem ;
+        n/= 10;         
+    }
+    return ans;
+}
+
+
+
+
 int main(){
-    cout << (8^2) << endl;
-    
-    cout << sizeof(int) << endl;
-    cout << sizeof(long int) << endl;
-    cout << sizeof(short int) << endl;
-    cout << sizeof(long long int) << endl;
+    // cout << (8^2) << endl;   
+    // cout << sizeof(int) << endl;
+    // cout << sizeof(long int) << endl;
+    // cout << sizeof(short int) << endl;
+    // cout << sizeof(long long int) << endl;
+
+    // cout << Reverse_num(122);
+
     return 0;
 }
 
@@ -85,9 +103,6 @@ int main(){
 //HW:
 // 1.Figure out how to find if a number is power of 2 without any loop 
 // Hint : Bits  :  <<,>> this can be used
-
-// 2.WAF to reverse an Integer n
-// Hint : Sum of digits wala concept ko ek baar dekhna
 
 
 

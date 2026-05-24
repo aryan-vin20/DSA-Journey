@@ -61,7 +61,33 @@ int get_nth_fibonacci(int n){
     }
     cout << b ;
 }
+
+void Num_of_digits(int n){
+    int num = 0;
+    if(n==0){
+        num = 1;
+    }
     
+    while(n>0){    
+        n /= 10;
+        num ++;
+    }
+    cout<< num;
+}
+// if void -> int then cout<< num -> return num also while func call func() -> cout << func() to print  answer!
+  
+
+int Reverse_num(int n){
+    int ans = 0;
+
+    while(n>0){
+        int rem = n % 10;
+
+        ans = ans*10 + rem ;
+        n/= 10;         
+    }
+    return ans;
+}
 
 int main(){
  
