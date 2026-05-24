@@ -40,7 +40,7 @@ int main(){
 
     return 0;
 }
-
+//leftmost bit -> Most Significant Bit(MSB)
 
 //for integer memory me 4bytes yani 32bits reserved rhta hai
 //00000..26 times zero101010 this is how 42 is stored in memory!

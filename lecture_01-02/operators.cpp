@@ -50,3 +50,14 @@ int main(){
 //unary operators : increment ++ , decrement --
 //a++(post increment) means phle kaam hoga phir a ki value update hogi
 //++a(pre increment) means phle a ki value update hogi phir kaam hoga
+
+// Operator precedance:
+// !,+,-(unary operators)
+// *,/,%  {R to L} if these 3 come in same operation then priority will be from right to left
+// +,- 
+// <,<=,>=,>
+// ==,!=
+// &&
+// ||
+// =(assignment operator) {R to L}
+// better practice is to use ()
