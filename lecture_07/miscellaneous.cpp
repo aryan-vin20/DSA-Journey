@@ -14,17 +14,27 @@ int Reverse_num(int n){
     return ans;
 }
 
+//find if a number is power of 2
+void powerOf2(int n){
+    if(n>0 && (n & (n-1)) == 0){
+        cout << "Yes" << endl;
+    }else{
+        cout << "No" << endl;
+    }
+
+}
+
 
 
 
 int main(){
-    // cout << (8^2) << endl;   
-    // cout << sizeof(int) << endl;
-    // cout << sizeof(long int) << endl;
-    // cout << sizeof(short int) << endl;
-    // cout << sizeof(long long int) << endl;
-
-    // cout << Reverse_num(122);
+    cout << (8^2) << endl;   
+    cout << sizeof(int) << endl;
+    cout << sizeof(long int) << endl;
+    cout << sizeof(short int) << endl;
+    cout << sizeof(long long int) << endl;
+    cout << Reverse_num(122);
+    powerOf2(64);
 
     return 0;
 }
