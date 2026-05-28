@@ -1,0 +1,9 @@
+Jyada sawal solve krna important nahi hai
+important hai ki tum patterns identify krna seekho and uss pattern ko reuse kr payo 
+when used next time
+
+learn to solve the problem with existing knowledge by finding some connections..
+
+Today(28th may 2026) i solved first problem on LEETCODE and i do not know why i am feeling so happy like
+in 1st year itself jab mai apne friends ko sunta tha ki they have solved this many problems 
+on leetcode mujhe lagta tha mai kitna peeche hu(tab mera leetcode pe a/c bhi nahi tha)
