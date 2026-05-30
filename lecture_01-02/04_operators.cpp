@@ -42,14 +42,14 @@ int main(){
 }
 
 // jab bhi operator use hota hai toh result ka datatype is same as larger of the data type among operands 
-//arithematic operators : +,-,*,/,% these all are binary operators as they need 2 operands
-//'=' this is assignment operator
-//relational operators : >,>=,<,<=,==,!=
-// relartional operator ka answer hamesha 0(false) ya 1(true) hoga
-//logical operator : OR(||)  AND(&&)  NOT(!)
-//unary operators : increment ++ , decrement --
-//a++(post increment) means phle kaam hoga phir a ki value update hogi
-//++a(pre increment) means phle a ki value update hogi phir kaam hoga
+// arithematic operators : +,-,*,/,% these all are binary operators as they need 2 operands
+// '=' this is assignment operator
+// relational operators : >,>=,<,<=,==,!=
+// relational operator ka answer hamesha 0(false) ya 1(true) hoga
+// logical operator : OR(||)  AND(&&)  NOT(!)
+// unary operators : increment ++ , decrement --
+// a++(post increment) means phle kaam hoga phir a ki value update hogi
+// ++a(pre increment) means phle a ki value update hogi phir kaam hoga
 
 // Operator precedance:
 // !,+,-(unary operators)

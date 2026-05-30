@@ -6,7 +6,7 @@ int main(){
     //Conversion:
     char Grade = 'A' ; //ASCII value 65  char-1bytes
     int value = Grade;  //int-4bytes
-    cout << value << "\n";
+    cout << value << "\n";   //Output->65
 
     //Casting:
     double price = 100.99; //double-8bytes
@@ -26,9 +26,9 @@ int main(){
 
 // converting data from one type to another -- Type casting
     // 1.conversion (implicit - compiler automatically kar ke deta hai)
-    // from small data typr-> large data type
+    // from small data type-> large data type
 
 
     // 2.casting(explicit - programmer ko manually krna prta hai)
-    // from big data type -> small data typr
+    // from big data type -> small data type
 
