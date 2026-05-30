@@ -18,7 +18,7 @@ int main(){
     cout << marks[3] << endl;
     cout << marks[4] << endl;
     
-    //what if there were 1000 students?
+    // what if there were 1000 students?
     // now we will use loop to print marks
     int size_of_array = sizeof(marks)/sizeof(int) ; //to get size of array
     for(int i =0 ; i<size_of_array ; i++){
@@ -73,7 +73,7 @@ int main(){
 
 // every technology is a solution of a problem that someone faced at some point of time
 // data is the fuel for development,coding,programming...
-// Data structures -> stores data eg.array,
+// Data structures -> stores data eg.array,vector
 // algorithms -> Data ke upar efficient operations perform krne ke tarike eg.search,sort etc
 
 //ARRAY basics

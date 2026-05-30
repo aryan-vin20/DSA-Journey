@@ -13,6 +13,7 @@ int operationArray(int arr[],int size){
     cout << "product of elements = " << product << endl;
 }
 
+
 void swapMinMax(int arr[],int size){
     int minIndex = 0;
     int maxIndex = 0;
@@ -34,6 +35,32 @@ void swapMinMax(int arr[],int size){
 }
 
 
+void uniqueElements(int arr[],int size){
+    
+    for(int i=0;i<size;i++){
+        int count = 0;
+        for(int j=0;j<size;j++){
+            if(arr[i]==arr[j]){
+                count++;
+            }
+        }
+        if(count == 1){
+            cout << arr[i] << " ";
+        }    
+    }
+}
+
+
+void intersectionArr(int arr1[],int arr2[],int size1,int size2){
+    for(int i=0;i<size1;i++){
+        for(int j=0;j<size2;j++){
+            if(arr1[i]==arr2[j]){
+                cout << arr1[i] << " ";
+            }
+        }
+    }
+    
+}
 
 
 int main(){
@@ -47,5 +74,17 @@ int main(){
         cout << array[i] << " ";
     }
     cout << endl;
+
+    int array[] = {4, 2, 4, 5, 2, 1};
+    int size = 6;
+    uniqueElements(array,size);
+
+    int array1[] = {1,2,3,4,5,6,7,8};
+    int size1 = 8;
+    int array2[] = {3,4,5,6,7,8};
+    int size2 = 6;
+    intersectionArr(array1,array2,size1,size2);
+
+    
     return 0;
 }
