@@ -79,7 +79,7 @@ int main(){
 
 
 // ctrl c press krne se infinite loop ruk jyega
-//break : loop se nikal jayega
+// break : loop se nikal jayega
 
 
     // for(initialisation;condition;updation){  #ICU

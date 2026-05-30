@@ -5,7 +5,7 @@ int main (){
     char ch;
     cout<< "Enter character\n";
     cin>> ch;
-    if(ch>='A' && ch<='Z'){ //mistake : Mai single quotes lagan bhul gya tha
+    if(ch>='A' && ch<='Z'){ //mistake : Mai single quotes lagana bhul gya tha
     //if(ch>=65 && ch<=90)  at the end memory me char apne ASCII values ke form me store hota hai
         cout<<"Upper case\n";
     }else{
