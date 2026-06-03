@@ -10,3 +10,8 @@ on leetcode mujhe lagta tha mai kitna peeche hu(tab mera leetcode pe a/c bhi nah
 while revision write pseudocode on paper
 
 before and after writing the code explain the workflow to yourself so clearly![it will help in interviews..]
+
+Vectors -- indices se deal krna hai -> for loop
+           elements itself se deal krna hai -> for each loop
+
+           
