@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-// Problem no.53 -> Leetcode    
+//Problem no.53 -> Leetcode    
 //Kadane's algorithm: most optimised solution->Time complexity->O(n)
     int arr[] = {3,-4,5,4,-1,7,-8};
     int size = 7;
