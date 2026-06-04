@@ -1,0 +1,35 @@
+Time complexity -> NOT the actual time taken but amount of time takenas a function of input size(n)
+*ek code ko run hone me different time lag skta hai on different machine(mac,windows) and differentplatform(leetcode,codeforces)
+but time complexity for a given algorithm is same everywhere!
+
+mainly 3 types -> 1.Worst case(Upper bound) -> Notation -> O(Big O) _placement perspective se sirf yahi important hai !
+                  2.Best case(lower bound)-> Notation -> Omega
+                  3.average case -> Notation -> theta
+
+Steps : 1.once you get the function ignore constants for calculating Time complexity
+        eg. 4n^2 + 6n + 55   ->   n^2 + n + 1
+        2.pick the largest term(n ko change krne par jo term sabse jyada badh rha hai!)
+        eg. n^2 + n + 1   ->   n^2
+
+Space complexity -> NOT the actual space taken but amount of space taken by an algorithm as a function of input size (n)
+code -> 2 tarike se space occupy hoti hai -> 1.input(eg.array,vectors,strings ...) -> input ko ham space complexity ke andr count nahi krte
+                                             2.auxiliary(extra) 
+eg. given an array(input) now :
+Q1. return an array in which all numbers are square of the no. given in the array -> O(n)
+    return the sum of all elements in the given array -> output me ek variable create hoga int sum usme hi answer aayega -> O(1)
+    (chahe n kitna bhi bara ho answer toh at the end uss sum variable me hi store hona hai!)
+
+ham ab mostly time complexity ki hi baat karenge kyuki we have system jisme space hai but we want a system jo bahut efficient ho!
+
+Chat-gpt se bolo ki mujhse different different function deke uska time complexity puche...for practice!
+
+eg.Prime number. Time complexity -> O(root n) [worst case me loop root n times chalega] 
+for(int i=2;i*i=n;i++){
+    if (n%i==0){
+        cout << "Prime no.";
+        break;
+    }
+}
+
+
+After completing recursion comeback and see the rest lecture!
